@@ -1,0 +1,22 @@
+{
+  "name": "personalproject",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch",
+    "build:tailwind": "npx tailwindcss -i ./src/input.css -o ./src/output.css",
+    "build": "npx webpack ./src/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.3",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "canvas-confetti": "^1.9.2",
+    "typed.js": "^2.1.0"
+  }
+}
