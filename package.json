@@ -6,7 +6,7 @@
     "dev": "bunx tailwindcss -i ./src/input.css -o ./src/output.css --watch",
     "build:tailwind": "bunx tailwindcss -i ./src/input.css -o ./src/output.css",
     "build": "bunx webpack ./src/main.js",
-    "build:babel": "bunx babel ./dist/main.js --out-dir ./prod/es5"
+    "build:babel": "bunx babel ./dist/main.js --out-dir ./dist/es5"
   },
   "keywords": [],
   "author": "",
