@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch",
     "build:tailwind": "npx tailwindcss -i ./src/input.css -o ./src/output.css",
-    "build": "webpack --config webpack.config.js"
+    "build": "npx webpack ./src/main.js"
   },
   "keywords": [],
   "author": "",
